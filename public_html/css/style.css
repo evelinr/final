@@ -13,12 +13,14 @@ body{
     /*values first one is top and bottom. Second one is left and right*/
     padding: 0 5%;
 }
-a{
+a{ 
+   
     text-decoration: none;
 }
 
 img {
     max-width: 100%
+   
 }
 h3 {
     margin: 0 0 1em 0;
@@ -67,18 +69,7 @@ nav li{
 /****************************************************************
 footer
 ******************************************************************/
-footer {
-    font-size: 0.99em;
-    text-align:center;
-    padding-top:50px;
-    color:#ccc;
-    clear: both;
-}
-.social-media-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-}
+
 
 
 /*****************************************************************
@@ -93,7 +84,7 @@ page portfolio
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: lightgrey;
+  background-color:#F2F4F4;
   color: #bdc3c7;
 }
 #gallery li a p {
@@ -102,45 +93,15 @@ page portfolio
  font-size: 0.75em;
  color: black;
 }
-/*************************************************************
-About Me Page
-**************************************************************/
-.profile-photo {
-    display: block;
-    max-width: 0 auto 30px;
-    border-radius:  15%;
-}
-
-
-
-
-/************************************************************
-Contact Page
-**************************************************************/
-.contact-info a {
-    display: block;
-    min-height: 20px;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding: 0 0 0 30px;
-    
-}
-
-.contact-info li.mail a {
-    background-image: url('../img/gmail1.png');
-}
-
-
-
-
-
 /***************************************************************
 colors
 ****************************************************************/
 body{
     background-color:white;
     color:black;
+    background-size: 100% 100%; 
 }
+
 a {
     color:#794044;
 }
