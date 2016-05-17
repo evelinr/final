@@ -76,13 +76,15 @@ footer
 page portfolio 
 ******************************************************************/
 #gallery {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     list-style: none;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #gallery li {
   float: left;
-  width: 45%;
+  width: 28.3333%;
   margin: 2.5%;
   background-color:#F2F4F4;
   color: #bdc3c7;
